@@ -1,6 +1,6 @@
 body {
-    background: rgb(123, 11, 11);
-    color: rgb(81, 3, 3);
+    background: rgb(150, 24, 24);
+    color: rgb(5, 13, 169);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(61, 14, 2);
+    background: rgb(150, 24, 24);
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
@@ -41,7 +41,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #050000;
+    color: #062e94;
 }
 
 /* main container area beneath menu */
@@ -74,4 +74,29 @@ main {
 
 h2, h3 {
     margin: 0px;
+}
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
