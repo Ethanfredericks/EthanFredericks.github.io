@@ -14,9 +14,9 @@ body {
 nav {
     background: rgb(150, 24, 24);
     margin: 0 auto;
-    margin-bottom: 20px;
     display: flex;
     padding: 10px;
+   
 }
 
 h1 {
