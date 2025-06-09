@@ -1,6 +1,6 @@
 body {
-    background: rgb(150, 24, 24);
-    color: rgb(5, 13, 169);
+    background: black(150, 24, 24);
+    color: white(5, 13, 169);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
