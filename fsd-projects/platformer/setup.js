@@ -98,5 +98,7 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
-  cookie: { image: "impages/collectable/download(1)(1).jpeg" },
- }
+  Bag: { image: "images/collectables/Cookie.png" },
+ coin: { image: "images/collectables/coin.jpg" },
+ Checkpoint: { image: "images/collectables/chekcpoint.png" },
+}

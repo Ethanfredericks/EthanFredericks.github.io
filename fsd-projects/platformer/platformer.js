@@ -33,21 +33,32 @@ $(function () {
 
     // TODO 2 - Create Platforms
 
-      createPlatform(200,650,50,50,"red");
-      createPlatform(500,550,50,50,"red")
-      createPlatform(350,600,50,50,"red") 
-      createPlatform (600,450,50,50,"red")
-     createPlatform(750,450,100,50,"red")
+      createPlatform(200,650,50,50,"white");
+      createPlatform(500,550,50,50,"white")
+      createPlatform(350,600,50,50,"white") 
+      createPlatform (600,450,50,50,"white")
+     createPlatform(750,450,500,50,"white")
+     createPlatform(900,350,50,50,"white")
+     createPlatform(1010,300,50,50,"white")
+     createPlatform(1150,250,100,50,"white")
+     createPlatform(750,500,50,300,"white") //left wall
+     createPlatform(1200,300,50,150,"white")
     // TODO 3 - Create Collectables
       
-    createCollectables("cookie",700,800)
+     createCollectable("Bag", 800, 410);
+    createCollectable("coin",810,700)
+    createCollectable("Checkpoint",1180,210)
 
     
     // TODO 4 - Create Cannons
-      createCannon("bottom",250,2000)
-      createCannon("bottom",410,2000)
-      createCannon("top",370,2000)
-    
+      createCannon("bottom",250,1500)
+      createCannon("bottom",400,1500)
+      createCannon("top",370,1500)
+      createCannon("bottom",520,1500)
+      createCannon("top",520,1500)
+      createCannon("top",640,1500)
+      createCannon("bottom",930,600)
+      createCannon("bottom",1050,600)
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
