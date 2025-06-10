@@ -1,5 +1,5 @@
 body {
-    background: white(247, 248, 250);
+    background: black(0, 0, 0);
     color: white(247, 248, 250);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: black(0, 0,0);
+    background: white(247, 248,250);
     margin: 0 auto;
     display: flex;
     padding: 10px;
