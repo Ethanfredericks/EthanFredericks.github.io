@@ -18,8 +18,11 @@
 			top: 100px;
 			/* Change me! */
 			left: 0px;
+		
 		}
-
+body {
+ background-color: #c5c9c3;
+}
 		.board {
 			height: 100vh;
 		}
@@ -55,9 +58,9 @@
 			 
 
 			// moves the Box to a new position on the screen along the X-Axis
-			function moveBoxTo(newPositionX) {
+			function moveBoxTo(newPositionX, newPositionY) {
 				box.css("left", newPositionX);
-			
+				box.css("top", newPositionY);
 			}
 
 			// changes the text displayed on the Box
@@ -74,8 +77,9 @@
 			var positionX = 0;
 			var points = 0;
 			var speed = 10;
-			
-
+			var positionY;
+			var speedY ;
+			var boardHeight = jQuery(window).height();
 
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -84,7 +88,7 @@
 			*/
 			function update() { 
 				moveBoxTo(500); // Moves the box to the x-position 300
-				moveBoxTo(positionX); // Moves the box to the far right edge
+				moveBoxTo(positionX,positionY); // Moves the box to the far right edge
 				positionX = positionX + speed;
 				if (positionX > boardWidth) {
 				speed *= -1;
@@ -105,7 +109,8 @@
 			*/
 			function handleBoxClick() {
 				positionX = 0;
-			points++; // Increases variableName by 1
+		
+				points++; // Increases variableName by 1
 				changeBoxText(points);
 				speed = 3 * points + 10;
 				
